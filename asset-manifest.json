@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Star-Character/static/css/main.83216d16.css",
-    "main.js": "/Star-Character/static/js/main.4b3eeb8c.js",
+    "main.js": "/Star-Character/static/js/main.b36974fc.js",
     "static/media/obiWanKenobi.svg": "/Star-Character/static/media/obiWanKenobi.86cebd81ff8b668ad031ac5834c8575b.svg",
     "static/media/deathStar.svg": "/Star-Character/static/media/deathStar.c7ea4111c67e255c79709bb839ddc300.svg",
     "index.html": "/Star-Character/index.html",
     "static/media/search.svg": "/Star-Character/static/media/search.4a3d702862b90186cc74f24fa77a200a.svg",
     "static/media/arrowBack.svg": "/Star-Character/static/media/arrowBack.b9b1b1b9f53a15c0c8d85bc6a29ce4a1.svg",
     "main.83216d16.css.map": "/Star-Character/static/css/main.83216d16.css.map",
-    "main.4b3eeb8c.js.map": "/Star-Character/static/js/main.4b3eeb8c.js.map"
+    "main.b36974fc.js.map": "/Star-Character/static/js/main.b36974fc.js.map"
   },
   "entrypoints": [
     "static/css/main.83216d16.css",
-    "static/js/main.4b3eeb8c.js"
+    "static/js/main.b36974fc.js"
   ]
 }

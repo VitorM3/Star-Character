@@ -11,6 +11,7 @@
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-responsive": "^9.0.0-beta.8",
@@ -21,12 +22,13 @@
     "typescript": "^4.7.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://vitorm3.github.io/Star-Character",
   "scripts": {
-    "dev-start": "HOST=0.0.0.0  npm run dev",
-    "dev": "react-scripts start --host=192.168.1.8",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npx gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

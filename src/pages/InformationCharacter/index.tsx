@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from "react";
+import { useEffect,useState } from "react";
 import CardInformation from "../../components/CardInformation";
 import ReturnButton from "../../components/ReturnButton";
 import { ICharacter } from "../../models/interface/character";
@@ -13,14 +13,12 @@ const InformationCharacter = () => {
     const [movies, setMovies] = useState<IMovie[]>([])
     const { id } = useParams()
 
-    useLayoutEffect(() => {
-        return () => {
+    useEffect(()=>{
             getOneCharacterInApiSwapi().then((character) => {
                 if (character === undefined) return
                 setMovies([])
                 getAllMoviesInTheCharacter(character?.films)
             })
-        }
     }, [])
 
 

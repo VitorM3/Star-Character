@@ -1,5 +1,5 @@
 
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect,useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CardCharacter from "../../components/CardCharacter";
 import { ObiWan } from "../../components/Images/@icons";
@@ -13,11 +13,8 @@ const Home = () => {
     const [allCharacterFilter, setAllCharacterFilter] = useState<ICharacter[]>([])
     const navigate = useNavigate()
 
-   useLayoutEffect(()=>{
-    
-    return () => {
+   useEffect(()=>{
         getAllCharacterInApiSwapi()
-    }
    },[])
 
     /**
